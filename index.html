@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!--
+  Read Only by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Python &amp; HDF5 hackfest</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body>
+    <div id="main">
+
+      <section id="one">
+        <div class="container">
+          <header class="major">
+            <h2>Python & HDF5 hackfest</h2>
+          </header>
+          <p>
+            The PyTables and h5py projects are holding an hackfest at Curtin
+            University. The focus of the event is the overreaching plan
+            decided by the two teams at SciPy 2015: refactoring the Python and
+            HDF5 stack by rebasing PyTables on top of the low-level API
+            provided by h5py.
+          </p>
+          <ul class="alt">
+            <li><b>When:</b> 8&ndash;11 August 2106</li>
+            <li><b>Where:</b> Cisco IoE Innovation Centre, Curtin
+              University, Perth, Australia</li>
+          </ul>
+          <h4>Background</h4>
+          <p>HDF5 is an open-source, high-performance data storage and manipulation platform, capable of handling data scales from kilobytes to exabytes. As such, it is a critical component in many scientific computing projects, ranging from Astronomy &amp; Astrophysics to Computational Biology to Nuclear Engineering.</p>
+          <p>Python is open-source, general-purpose programming language with a deep and broad scientific computing ecosystem. Users who intend to read and write HDF5 stored data from Python are faced with a choice between two long-standing packages with overlapping capabilities: h5py and PyTables.
+            Both packages allows to access and manipulate HDF5 datafile but they strongly differer in spirit: while h5py wants to stay as close as possible to the original HDF5 C API, PyTables adds sophisticated features as indexing and out-of-core querying. h5py and Pytables suit slightly different use cases, and interactions with other software packages often end up requiring both packages to be used.</p>
+          <p>To solve this confusing situation, developers from PyTables, h5py, The HDF Group, as well as other community members have delineated a plan to simplify the stack for Python and HDF5. This plan contains the following components:</p>
+          <ul>
+            <li>Refactor PyTables to depend on h5py for low-level operation</li>
+            <li>Extend h5py to cover all the HDF5 API needed by PyTables</li>
+            <li>Retain in PyTables its high-level abstractions</li>
+          </ul>
+          <p>This plan will make h5py – PyTables interactions seamless and will benefit users, developers and the general ecosystem.</p>
+        </div>
+      </section>
+
+      <!--
+      <section id="two">
+        <div class="container">
+          <h3>Things I Can Do</h3>
+          <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+          <ul class="feature-icons">
+            <li class="fa-code">Write all the code</li>
+            <li class="fa-cubes">Stack small boxes</li>
+            <li class="fa-book">Read books and stuff</li>
+            <li class="fa-coffee">Drink much coffee</li>
+            <li class="fa-bolt">Lightning bolt</li>
+            <li class="fa-users">Shadow clone technique</li>
+          </ul>
+        </div>
+      </section>
+      -->
+
+      <section id="three">
+        <div class="container">
+          <h3>Confirmed participants</h3>
+          <div class="features">
+            <article>
+              <a href="#" class="image"><img src="images/francesc.jpg" alt="" /></a>
+              <div class="inner">
+                <h4>Francesc Alted</h4>
+                <p>
+                  Francesc is an independent consultant with years of experience
+                  in Python and C programming and compression techniques for IO. He is the main
+                  author of open source projects like <a
+                    href="http://pytables.org">PyTables</a>, <a
+                    href="http://bcolz.blosc.org">bcolz</a>, and the ultra-fast
+                  compressor <a href="http://blosc.org">Blosc</a>.
+                </p>
+              </div>
+            </article>
+            <article> <a href="#" class="image"><img src="images/anthony.jpg" alt="" /></a>
+              <div class="inner">
+                <h4>Anthony Scopatz</h4>
+                <p>
+                  Anthony is a computational scientist and long time
+                  Python developer. He currently is an Assistant Professor of
+                  Nuclear Engineering at the University of South Carolina.
+                  He is the co-author of O'Reilly's <a
+                    href="http://physics.codes">"Effective Computation in
+                    Physics"</a> and an author of <a href="http://xon.sh">xonsh</a>.</p>
+              </div>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="images/thomas.jpg" alt="" /></a>
+              <div class="inner">
+                <h4>Thomas Caswell</h4>
+                <p>
+                  Thomas is a soft-matter physicist at Brookhaven National
+                  Laboratory who is committed to develop better software tools
+                  for scientists. He is co-lead developer of <a
+                    href="http://matplotlib.org">matplotlib</a>.
+                </p>
+              </div>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="images/andrea.jpg" alt="" /></a>
+              <div class="inner">
+                <h4>Andrea Bedini</h4>
+                <p>Andrea is a data/scientist and computer specialist at the
+                  <a href="http://computation.curtin.edu.au">Curtin Institute
+                    for Computation</a>. As a researcher he worked in
+                  mathematical combinatorics, statistical physics, genomics
+                  and traffic flow modelling.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h3>Sponsors</h3>
+          <ul class="alt">
+              <li>
+                  Curtin Institute for Computation
+                  <img class="pull-right" src="images/cic.jpg"/>
+              </li>
+              <li>
+                  NumFocus
+                  <img class="pull-right" src="http://www.numfocus.org/uploads/6/0/6/9/60696727/1457562110.png">
+              </li>
+              <li>
+                  Univeristy of South Carolina
+                  <img class="pull-right"
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/University_of_South_Carolina_logo.svg/250px-University_of_South_Carolina_logo.svg.png">
+              </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="four">
+        <div class="container">
+          <h3>Contact Us</h3>
+          <p>
+            What to know more about this event? Interested in taking part to
+            it? Send us a message.
+          </p>
+          <form method="post" action="https://formspree.io/andrea.bedini@curtin.edu.au">
+            <div class="row uniform">
+              <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+              <div class="6u 12u(xsmall)"><input type="email" name="_repyto" id="email" placeholder="Email" /></div>
+            </div>
+            <div class="row uniform">
+              <div class="12u"><input type="text" name="_subject" id="subject" placeholder="Subject" /></div>
+            </div>
+            <div class="row uniform">
+              <div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+            </div>
+            <div class="row uniform">
+              <div class="12u">
+                <ul class="actions">
+                  <li><input type="submit" class="special" value="Send Message" /></li>
+                  <li><input type="reset" value="Reset Form" /></li>
+                </ul>
+              </div>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <section id="footer">
+      <div class="container">
+        <ul class="copyright">
+          <li>Photo copy; <a href="https://flic.kr/p/aFgmZa">Yeah Nah</a>
+            licenced under CC-BY-NC</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
